@@ -1,0 +1,116 @@
+body{
+    font-family: Arial;
+    width: 50%;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: rgb(241, 250, 250);
+    text-align: justify;
+}
+.all_container{
+    border: 15px solid rgb(117, 24, 24);
+    box-sizing: content-box;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* Home page */
+.bars{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding: 1px;
+    background-color:rgb(117, 24, 24);    
+    border-radius: 35px;
+    box-sizing: border-box;
+}
+.bars ul{
+    list-style: none;
+    display: inline-flex;
+    font-family: sans-serif;
+    
+}
+.bars ul li a{
+    color: white;
+    text-decoration: none;
+}
+.bars ul li{
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    padding: -0.5px 20px 10px;   
+}
+.bars ul li:hover{
+    background-color: rgb(255, 51, 221);
+    border-radius: 3px;
+}
+.head_home{
+    text-align: center;
+}
+
+#picto{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: right;  
+}
+.first_section{
+    list-style-position: inside;
+}
+.about_me{
+    line-height: 2;
+}
+/* Register */
+
+.first_box{
+    border: 2px solid pink;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 70px;
+}
+#second_box{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 25px;
+    height: 10px;
+    margin: 0,0,0,9px;
+}
+
+/* Calculator */
+#display{
+    border: 2px rgb(255, 51, 221) solid;
+    width: 400px;
+    height:80px;
+    margin: 10px;
+}
+.container {
+    max-width: 400px;
+    margin: 90px auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
